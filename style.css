@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital@0;1&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #828181;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Isso define a altura para ocupar toda a altura da viewport */
+}
+
+h1 {
+    color: #FFA500;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.centralizar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.numeros {
+    color: #FFA500;
+    border: 1px solid #FFA500;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    width: 165px;
+    height: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Espaçamento inferior entre os números e os controles */
+}
+
+.controles button {
+    background-color: #212121;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 60px;
+    height: 40px;
+    margin: 0 1px;
+    cursor: pointer;
+    transition: background-color 0.1s linear;
+}
+
+.controles button:hover {
+    background-color: #121212;
+}
+
+.fa-play, .fa-pause, .fa-arrow-rotate-left {
+    font-size: 16px;
+}
+
+.global {
+    background-color: #121212;
+    width: 270px;
+    padding: 1rem;
+    height: 280px;
+    border-radius: 11px;
+    border: 1px solid #FFA500;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Create by Brenno Ruan*/
